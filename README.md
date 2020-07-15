@@ -23,19 +23,19 @@ For performance comparison, we trained few off-line and real-time existing model
 ## Results
 We trained our model with different input resolutions for cityscapes dataset. Cityscapes provides 1024 x 2048 px resolution images. We mainly focus full resolution of cityscapes images. For CamVid dataset, we use 512 x 1024px resolution altough original image size is 720 x 960px. We trained other existng models with full resolution of cityscapes images. 
 ### Separable UNet
-![Separable UNet](https://github.com/tanmaysingha/ESPNet/blob/master/Results/other_models/Separable_UNet.png?raw=true)
+![Separable UNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/separable_UNet.png?raw=true)
 
-### DeepLabV3+
-![DeepLabV3+](https://github.com/tanmaysingha/ESPNet/blob/master/Results/other_models/DeepLabV3%2B.png?raw=true)
+### DeepLab
+![DeepLabV3+](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/DeepLab.png?raw=true)
 
 ### Bayesian SegNet
-![Bayesian SegNet](https://github.com/tanmaysingha/ESPNet/blob/master/Results/other_models/Bayesian_SegNet.png?raw=true)
+![Bayesian SegNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/bayes_segnet.png?raw=true)
 
 ### FAST-SCNN
-![FAST-SCNN](https://github.com/tanmaysingha/ESPNet/blob/master/Results/other_models/FAST_SCNN.png?raw=true)
+![FAST-SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/fast_scnn.png?raw=true)
 
-### Base ESPNet S0
-![Base ESPNet](https://github.com/tanmaysingha/ESPNet/blob/master/Results/Base_ESPNet_Results/Base_ESPNet.png?raw=true)
+### FANet
+![Final ESPNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet.png?raw=true)
 
-### Final ESPNet
-![Final ESPNet](https://github.com/tanmaysingha/ESPNet/blob/master/Results/Final_ESPNet_Results/result1.png?raw=true)
+### Model prediction on CamVid dataset
+![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
