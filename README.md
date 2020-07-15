@@ -35,7 +35,7 @@ We trained our model with different input resolutions for cityscapes dataset. Ci
 ![FAST-SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/fast_scnn.png?raw=true)
 
 ### FANet
-![FANet](?raw=true)
+![FANet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet.png?raw=true)
 
 ### Model prediction on CamVid dataset
 ![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
