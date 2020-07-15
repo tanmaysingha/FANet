@@ -1,0 +1,13 @@
+
+Challenge,Method
+pixellevel,FAST-SCNN
+
+"Class level"
+Metric,Average,road,sidewalk,building,wall,fence,pole,trafficlight,trafficsign,vegetation,terrain,sky,person,rider,car,truck,bus,train,motorcycle,bicycle
+IoU,63.0214,96.686,75.639,87.8116,43.4869,36.2216,41.2818,52.1906,56.9361,90.0717,65.9252,92.4963,70.9059,50.1678,91.262,42.7273,54.1983,51.7046,42.025,55.6681
+iIoU,31.9591,,,,,,,,,,,,40.0104,20.5974,80.7105,14.5481,26.9247,22.8907,19.3886,30.6022
+
+"Category level"
+Metric,Average,flat,nature,object,sky,construction,human,vehicle
+IoU,82.3837,96.5348,89.558,49.1617,92.4963,88.0391,71.2842,89.6116
+iIoU,59.104,,,,,,40.8698,77.3382
