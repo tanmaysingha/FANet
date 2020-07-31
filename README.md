@@ -33,9 +33,89 @@ We trained our model with different input resolutions for cityscapes dataset. Ci
 
 ### FAST-SCNN
 ![FAST-SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/fast_scnn.png?raw=true)
+<b><u>IoU Over Classes on Validation Set</b></u>
+
+classes       |  IoU  |   nIoU
+--------------|-------|---------
+road          | 0.943 |    nan
+sidewalk      | 0.761 |    nan
+building      | 0.876 |    nan
+wall          | 0.444 |    nan
+fence         | 0.433 |    nan
+pole          | 0.434 |    nan
+traffic light | 0.511 |    nan
+traffic sign  | 0.595 |    nan
+vegetation    | 0.889 |    nan
+terrain       | 0.546 |    nan
+sky           | 0.908 |    nan
+person        | 0.667 |  0.396
+rider         | 0.437 |  0.228
+car           | 0.899 |  0.787
+truck         | 0.552 |  0.196
+bus           | 0.650 |  0.365
+train         | 0.451 |  0.197
+motorcycle    | 0.395 |  0.186
+bicycle       | 0.631 |  0.351
+<b>Score Average | <b>0.633 | <b>0.338
+ 
+ <b><u>IoU Over Categories </b></u>
+
+categories    |  IoU   |  nIoU
+--------------|--------|--------
+flat          | 0.955  |   nan
+construction  | 0.882  |   nan
+object        | 0.529  |   nan
+nature        | 0.891  |   nan
+sky           | 0.908  |   nan
+human         | 0.708  | 0.426
+vehicle       | 0.878  | 0.756
+<b>Score Average | <b>0.822  | <b>0.591
+ 
+ <b><u>IoU Over Classes on test Set of Cityscapes</b></u>
+ To see the performance of FANet on test dataset, you can download the .csv file from here: ()
 
 ### FANet
 ![FANet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet.png?raw=true)
+<b><u>IoU Over Classes on Validation Set of Cityscapes</b></u>
+
+classes       |  IoU  |   nIoU
+--------------|-------|---------
+road          | 0.962 |    nan
+sidewalk      | 0.751 |    nan
+building      | 0.893 |    nan
+wall          | 0.527 |    nan
+fence         | 0.473 |    nan
+pole          | 0.470 |    nan
+traffic light | 0.535 |    nan
+traffic sign  | 0.646 |    nan
+vegetation    | 0.898 |    nan
+terrain       | 0.552 |    nan
+sky           | 0.925 |    nan
+person        | 0.702 |  0.459
+rider         | 0.456 |  0.272
+car           | 0.909 |  0.785
+truck         | 0.470 |  0.201
+bus           | 0.704 |  0.358
+train         | 0.615 |  0.311
+motorcycle    | 0.388 |  0.186
+bicycle       | 0.652 |  0.403
+<b>Score Average | <b>0.659 | <b>0.372
+
+<b><u>IoU Over Categories on validation set of Cityscapes</b></u>
+
+categories    |  IoU   |  nIoU
+--------------|--------|--------
+flat          | 0.967  |   nan
+construction  | 0.894  |   nan
+object        | 0.556  |   nan
+nature        | 0.901  |   nan
+sky           | 0.925  |   nan
+human         | 0.715  | 0.489
+vehicle       | 0.892  | 0.767
+<b>Score Average | <b>0.836  | <b>0.628
+ 
+ <b><u>IoU Over Classes on test Set of Cityscapes</b></u>
+ To see the performance of FANet on test dataset, you can download the .csv file from here: ()
 
 ### Model prediction on CamVid dataset
 ![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
