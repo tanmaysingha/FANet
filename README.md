@@ -114,8 +114,8 @@ human         | 0.715  | 0.489
 vehicle       | 0.892  | 0.767
 <b>Score Average | <b>0.836  | <b>0.628
  
- <b><u>IoU Over Classes on test Set of Cityscapes</b></u>
- To see the performance of FANet on test dataset, you can download the .csv file from here: ()
+ <b><u>To see the performance of FANet on test dataset, you can download the .csv file from here:</b></u>
+  (https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/FANet_Test_Results_evaluated_by_Cityscapes_server.csv)
 
 ### Model prediction on CamVid dataset
 ![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
