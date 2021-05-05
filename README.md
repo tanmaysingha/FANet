@@ -10,7 +10,7 @@ For this research work, we have used cityscapes benchmark datasets and CamVid da
 To understand the metrics used for model performance evaluation, please  refer here: https://www.cityscapes-dataset.com/benchmarks/#pixel-level-results
 
 ## Transfer Learning
-For performance comparison, we trained few off-line and real-time existing models under same configuration and compared their performance with ESPNet. Some existing models require the use of ImageNet pretrained models to initialize their weights. Details will be given soon.
+For performance comparison, we trained few off-line and real-time existing models under same configuration and compared their performance with FANet. Some existing models require the use of ImageNet pretrained models to initialize their weights. Details will be given soon.
 
 ## Requirements for Project
 * TensorFlow 2.1
@@ -21,7 +21,7 @@ For performance comparison, we trained few off-line and real-time existing model
 * Python >= 3.7
 
 ## Results
-We trained our model with different input resolutions for cityscapes dataset. Cityscapes provides 1024 x 2048 px resolution images. We mainly focus full resolution of cityscapes images. For CamVid dataset, we use 512 x 1024px resolution altough original image size is 720 x 960px. We trained other existng models with full resolution of cityscapes images. 
+We trained our model with different input resolutions for cityscapes dataset. Cityscapes provides 1024 x 2048 px resolution images. We mainly focus full resolution of cityscapes images. For CamVid dataset, we use 512 x 1024px resolution altough original image size is 720 x 960px. We trained other models with different resolutions of cityscapes images. 
 ### Separable UNet
 ![Separable UNet](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/separable_UNet.png?raw=true)
 
