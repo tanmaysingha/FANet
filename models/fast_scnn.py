@@ -1,3 +1,8 @@
+"""
+Implementation of FAST-SCNN using Tensorflow 2.1.0 and TF.Keras
+
+Official paper link: https://arxiv.org/abs/1902.04502
+"""
 
 import tensorflow as tf
 from tensorflow import keras
