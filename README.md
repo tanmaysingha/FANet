@@ -121,9 +121,9 @@ vehicle       | 0.892  | 0.767
 ![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
  
  ### Citation
- cff-version: 1.2.0
- message: If you use this software, please cite it using these metadata.
- 
+ ```yaml
+cff-version: 1.2.0
+If FANet is useful for your research work, please consider for citing the paper:
 @inproceedings{singha2020fanet,
   title={FANet: Feature Aggregation Network for Semantic Segmentation},
   author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh},
@@ -132,3 +132,6 @@ vehicle       | 0.892  | 0.767
   year={2020},
   organization={IEEE}
 }
+```
+ 
+
