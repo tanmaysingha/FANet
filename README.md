@@ -123,7 +123,7 @@ vehicle       | 0.892  | 0.767
  ### Citation
  If FANet is useful for your research, please consider citing the paper:
  
- ![citation}@inproceedings{singha2020fanet,
+ ![citation]@inproceedings{singha2020fanet,
   title={FANet: Feature Aggregation Network for Semantic Segmentation},
   author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh},
   booktitle={2020 Digital Image Computing: Techniques and Applications (DICTA)},
