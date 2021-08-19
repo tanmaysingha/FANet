@@ -119,3 +119,15 @@ vehicle       | 0.892  | 0.767
 
 ### Model prediction on CamVid dataset
 ![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
+ 
+ ### Citation
+ If FANet is useful for your research, please consider citing the paper:
+ 
+ @inproceedings{singha2020fanet,
+  title={FANet: Feature Aggregation Network for Semantic Segmentation},
+  author={Singha, Tanmay and Pham, Duc-Son and Krishna, Aneesh},
+  booktitle={2020 Digital Image Computing: Techniques and Applications (DICTA)},
+  pages={1--8},
+  year={2020},
+  organization={IEEE}
+}
