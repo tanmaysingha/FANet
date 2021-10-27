@@ -120,6 +120,8 @@ vehicle       | 0.892  | 0.767
 ### Model prediction on CamVid dataset
 ![FANet_Vs_FAST_SCNN](https://github.com/tanmaysingha/FANet/blob/master/Predicted_images/CamVid_prediction.png?raw=true)
  
+ Refer the following link for FANet: https://ieeexplore.ieee.org/abstract/document/9363370
+ 
  ### Citation
  ```yaml
 cff-version: 1.2.0
